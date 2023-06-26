@@ -128,3 +128,24 @@ main h2 {
 .square p {
     display: block;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 8em 13em;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote .author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+    margin: 0;
+    padding-top: 0.5em;
+}
