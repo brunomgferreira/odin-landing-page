@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 header {
@@ -134,7 +135,7 @@ main h2 {
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 8em 13em;
+    padding: 8em 20em;
 }
 
 .quote .text {
@@ -155,7 +156,7 @@ main h2 {
 .sign-up {
     background-color: #3882F6;
     display: flex;
-    margin: 8em 10em;
+    margin: 7em 13em;
     padding: 3em 6em;
     justify-content: space-between;
     align-items: center;
@@ -168,4 +169,11 @@ main h2 {
 
 .sign-up p {
     margin: 0;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 2em 0;
 }
