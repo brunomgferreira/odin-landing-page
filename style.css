@@ -47,6 +47,7 @@ header {
     color: #E5E7EB;
     font-size: 18px;
     display: block;
+    margin: 0;
 }
 
 button {
@@ -54,8 +55,9 @@ button {
     border-color: #F9FAF8;
     border-style: solid;
     border-radius: 8px;
-    padding: 7px 1em;
-    width: 120px;
+    padding: 14px 1.5em;
+    width: 140px;
+    font-weight: 700;
 }
 
 .welcome button {
@@ -148,4 +150,22 @@ main h2 {
     text-align: end;
     margin: 0;
     padding-top: 0.5em;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    display: flex;
+    margin: 8em 10em;
+    padding: 3em 6em;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.sign-up h2 {
+    margin: 0;
+}
+
+.sign-up p {
+    margin: 0;
 }
